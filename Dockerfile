@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . /app
 
 # Default command: just print Python version (override when running)
-CMD ["python", "--version"]
+CMD ["python", "control-flow/pattern_drawing.py"]
